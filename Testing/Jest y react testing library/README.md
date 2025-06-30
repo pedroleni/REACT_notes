@@ -41,3 +41,37 @@ Este proyecto tiene como objetivo demostrar cómo implementar pruebas en aplicac
 | `userEvent`          | Simula interacciones de usuario más realistas (recomendado sobre `fireEvent`). |
 
 ---
+
+## 🚀 Cómo ejecutar las pruebas
+
+1. Instalar dependencias con `npm install`
+2. Ejecutar todas las pruebas con `npm run test`
+3. Ver la cobertura de código con `npm test -- --coverage`
+
+---
+
+## 📜 Scripts disponibles
+
+En el archivo `package.json`, estos scripts están configurados:
+
+- `npm run dev`: Inicia el servidor de desarrollo usando Vite
+- `npm run build`: Genera una versión optimizada para producción
+- `npm run preview`: Sirve localmente la versión construida
+- `npm run test`: Ejecuta las pruebas usando Jest en modo observación (`--watchAll`)
+
+> Asegúrate de tener instalados Vite, Jest y las dependencias necesarias.
+
+---
+
+## 🧠 Recomendaciones
+
+- Escribe pruebas que reflejen cómo el usuario usará el componente
+- Evita pruebas demasiado acopladas al DOM interno
+- Usa `getByRole` siempre que sea posible por accesibilidad
+
+---
+
+## 📚 Recursos útiles
+
+- [Documentación de Jest](https://jestjs.io/docs/getting-started)
+- [Documentación de React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
