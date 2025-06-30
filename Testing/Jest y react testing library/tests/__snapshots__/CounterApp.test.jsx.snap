@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`Pruebas en el <CounterApp /> debe de hacer match con el snapshot 1`] = `
 <div>
