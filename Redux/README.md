@@ -159,10 +159,12 @@ export default Formulario;
 
 ## 🛠️ Validaciones comunes con Yup
 
-yup.string().required() // Campo obligatorio
-yup.string().email() // Email válido
-yup.string().min(6) // Mínimo de caracteres
-yup.string().matches(/regex/, msg) // Validación con regex
-yup.number().positive().integer() // Solo enteros positivos
-yup.date().max(new Date()) // Fecha no futura
-yup.boolean().oneOf([true], msg) // Checkbox obligatorio
+| Validación Yup                       | Descripción                    |
+| ------------------------------------ | ------------------------------ |
+| `yup.string().required()`            | Campo obligatorio              |
+| `yup.string().email()`               | Email válido                   |
+| `yup.string().min(6)`                | Mínimo de 6 caracteres         |
+| `yup.string().matches(/regex/, msg)` | Validación con regex           |
+| `yup.number().positive().integer()`  | Solo números enteros positivos |
+| `yup.date().max(new Date())`         | Fecha no futura                |
+| `yup.boolean().oneOf([true], msg)`   | Checkbox obligatorio           |
