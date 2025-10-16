@@ -1,4 +1,5 @@
 # Módulo: Frontend ReactJS
+<img width="600" height="167" alt="react-js" src="https://github.com/user-attachments/assets/e9e378c5-f581-4b63-822a-b0de5ff8939f" />
 
 **Introducción**
 
