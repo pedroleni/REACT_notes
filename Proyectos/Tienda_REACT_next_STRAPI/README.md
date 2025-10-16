@@ -1,26 +1,28 @@
-# React Notes 📁⚛️
+# 🕹️ Tienda Online de Videojuegos — Next.js & Strapi
 
-Este repositorio es una recopilación organizada de **proyectos**, **ejemplos prácticos** y **configuraciones útiles** que giran en torno a **React** y su ecosistema. Está diseñado como una **herramienta de consulta rápida** para estudiantes, desarrolladores en formación o cualquier persona que trabaje con esta biblioteca.
+Proyecto completo de una **tienda online de videojuegos**, desarrollada con **Next.js** para el frontend y **Strapi** como CMS y backend.  
+Incluye autenticación, gestión de usuarios, carrito de compras, integración con Stripe, almacenamiento en AWS S3 y un panel administrativo completo.
 
-## Contenido del repositorio
+---
 
-Aquí encontrarás ejemplos y configuraciones que abarcan:
+## 🚀 Características Principales
 
-- ⚛️ **React**: Componentes funcionales, hooks, manejo de estado local, renderizado condicional, etc.
-- 🛠️ **Redux** y **Redux Toolkit**: Manejo de estado global, slices, middleware, integración con RTK Query.
-- 🧪 **Testing**: Pruebas con **Jest**, **React Testing Library**, y ejemplos de buenas prácticas de testeo.
-- 🌀 **React Router**: Configuración de rutas, navegación anidada, rutas protegidas.
-- 💅 **Styled Components** y otras librerías de estilos como **Tailwind CSS**.
-- 🧠 **Manejo de estado alternativo**: Uso de librerías como **Zustand** y **Recoil**.
-- 📦 **API & Fetching**: Consumo de APIs con **fetch**, **axios**, y herramientas como **TanStack Query (React Query)**.
-- 🧰 **TypeScript**: Tipado de props, custom hooks, componentes genéricos.
-- 📁 **Organización de carpetas**: Estructuras modulares y escalables para proyectos React.
-- 📄 **Buenas prácticas**: Estándares de código, naming conventions, y patrones recomendados.
+- ⚡ **Next.js** para crear una aplicación web rápida y optimizada.
+- 🧠 **Hooks personalizados** para reutilizar lógica y mejorar la estructura del código.
+- 🌐 **Context API** para gestionar el estado global del usuario y del carrito.
+- 🗺️ **Rutas avanzadas** y navegación dinámica con Next.js.
+- 🔐 **Sistema de autenticación** con **Strapi** y **JWT (JSON Web Token)**.
+- 🧾 **Formik + Yup** para formularios y validación robusta.
+- 💳 **Integración de pagos con Stripe**.
+- 🚫 **Zonas restringidas** para usuarios registrados e invitados.
+- ☁️ **Amazon S3 (AWS)** para almacenar archivos multimedia.
+- 🔗 **Conexión entre Strapi y AWS S3**.
+- 🧰 **Panel de administrador** para gestionar contenido, usuarios y pedidos.
+- 🧩 **Layouts personalizados** para diferentes secciones del sitio.
+- 👥 **Sistema de login y registro de usuarios**.
+- 📦 **Gestión de direcciones y configuración de cuenta**.
+- 🎮 **Catálogo de plataformas y videojuegos**.
+- 🛒 **Sistema de pedidos y carrito de compras**.
+- 🔍 **Buscador de videojuegos dinámico y veloz**.
 
-## Objetivo
-
-Este repositorio está pensado para servir como:
-
-- Guía de referencia rápida durante el desarrollo.
-- Base para nuevos proyectos.
-- Espacio de experimentación y aprendizaje continuo.
+---
